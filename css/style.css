@@ -1,0 +1,9 @@
+.topleft{
+    position: absolute;
+    top: 8em;
+    left: 14em;
+    font-size: 18px;
+}
+.socialicons{
+    display: block;
+}
