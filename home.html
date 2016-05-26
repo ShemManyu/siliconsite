@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Home</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="css/bootstrap.min.css" rel="stylesheet" />
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/jQuery.min.js"></script>
+        <script src="js/jquery-1.11.1.min"></script>
         <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
     </head>
         <body>
             
             <nav class="navbar navbar-default">
                 <div class="container">
-                    
+                    <a name="top"></a>
                     <!--LOGO-->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MainNavbar">
@@ -24,25 +24,52 @@
                     </div>
                     
                     <!--Nav bar Items-->
-                    <div class="collapse navbar-collapse" id="MainNavbar">
+                    <div class="collapse navbar-collapse fixed" id="MainNavbar">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="about.html">HOME</a></li>
-                            <li><a href="contact.html">ABOUT</a></li>
-                            <li><a href="blog.html">BLOG</a></li>
-                            <li><a href="contact.html">CONTACT US</a></li>                           
+                            <li class="active"><a href="#top">HOME</a></li>
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#blog">BLOG</a></li>
+                            <li><a href="#contact">CONTACT US</a></li>                           
                         </ul> 
                     </div>
                 </div>
             </nav>
+            <!--End of Navigation BAR-->
+            <!--beginning of body-->
             <div class="container">
-                    <img src="images/3.jpg" height="600" width="1100">
-                    <div class="topleft">
-                        <div class="socialicons">
-                            <a href="https://www.facebook.com/siliconblaze.officialpage/"><img src="images/fb.png" height="45" width="45"></a>
-                            <a href=""><img src="images/twitter.png" height="45" width="45"></a>
-                            <a href=""><img src="images/blog.png" height="45" width="45"></a>
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="images/11.jpg" height="550" width="1100" class="img-responsive">
+                        <div class="topleft">
+                            <div class="socialicons">
+                                <a href="https://www.facebook.com/siliconblaze.officialpage/" ><img src="images/fb.png" height="45" width="45" style="background-color: orange"></a>
+                                <a href=""><img src="images/twitter.png" height="45" width="45" style="background-color: orange" class="img-responsive"></a>
+                                <a href=""><img src="images/blog.png" height="45" width="45" style="background-color: orange" class="img-responsive"></a>
+                            </div>
+                        </div>
+                        
+                        <div class="topright">
+                            <p>+254 719-758-693</p>
+                        </div>
+                        
+                        <div class="center">
+                            <h1>Silicon Savannah Ablaze</h1><br>
+                            <p>We mentor highschool kids in web design</p>
                         </div>
                     </div>
+                </div>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <a name="about"></a>
+                        <h1>ABOUT US</h1>
+                        <p>Silicon Blaze is a student run project by students from JKUAT, University of Nairobi and Strathmore Business School aimed at inspiring high school students and tutoring them in the field of computer programming. Volunteers (university students) will visit specific schools once in fortnight for a two hour session over the weekend with interested students.</p>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <img src="images/3.jpg" height="250" width="500" class="img-responsive">
+                    </div>
+                </div>
             </div>
         </body>      
 </html>

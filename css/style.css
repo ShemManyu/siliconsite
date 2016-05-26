@@ -1,9 +1,41 @@
 .topleft{
     position: absolute;
-    top: 8em;
+    top: 9em;
     left: 14em;
-    font-size: 18px;
 }
 .socialicons{
     display: block;
+}
+.socialicons: hover{
+     background-color: #ffffff;
+}
+.topright{
+    position: absolute;
+    top: 6em;
+    right: 16em;
+    /*font-size: 30px;*/
+    color: orange;
+    font-weight: bold;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+.center h1{
+    font-family: serif;
+    font-weight: bold;
+    color: orange;
+}
+.center p{
+    font-family: serif;
+    color: orange;
+}
+a{
+    text-decoration: none;
+}
+.fixed{
+    position: fixed;
 }
