@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <script src="js/jquery-1.11.1.min"></script>
+        <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+ 
+    </head>
+        <body>
+            
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <!--LOGO-->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MainNavbar">
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                         </button>
+                        <a href="index.html" class="navbar-brand" style="color: orange; font-weight: bold">SILICONBLAZE</a>
+                    </div>
+                    
+                    <!--Nav bar Items-->
+                    <div class="collapse navbar-collapse" id="MainNavbar">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#top">HOME</a></li>
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#join">JOIN US</a></li>
+                            <li><a href="#contact">TALK TO US</a></li>
+                            <li><a href="https://siliconblazeblog.wordpress.com/">BLOG</a></li>                           
+                        </ul> 
+                    </div>
+                </div>
+            </nav>
+            <!--End of Navigation BAR-->
+            <!--beginning of body-->
+            <div class="container">
+                <a name="top"></a>
+                <div class="row">
+                    <div class="col-md-12">
+                        <img src="images/11.jpg" height="550" width="1100" class="img-responsive">
+                        <div class="topleft">
+                            <div class="socialicons">
+                                <a href="https://www.facebook.com/siliconblaze.officialpage/" ><img src="images/fb.png" height="45" width="45" style="background-color: orange"></a>
+                                <a href=""><img src="images/twitter.png" height="45" width="45" style="background-color: orange" class="img-responsive"></a>
+                                <a href=""><img src="images/blog.png" height="45" width="45" style="background-color: orange" class="img-responsive"></a>
+                            </div>
+                        </div>
+                        
+                        <div class="topright">
+                            <p>+254 719-758-693</p>
+                        </div>
+                        
+                        <div class="center">
+                            <h1>Silicon Savannah Ablaze</h1><br>
+                            <p>We mentor highschool kids in web design</p>
+                        </div>
+                    </div>
+                </div><!--End of banner-->
+                
+                <div class="row">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a name="about"></a>
+                            <h1>ABOUT US</h1>
+                            <p>Silicon Blaze is a student run project by students from JKUAT, University of Nairobi and Strathmore Business School aimed at inspiring high school students and tutoring them in the field of computer programming. Volunteers (university students) will visit specific schools once in fortnight for a two hour session over the weekend with interested students.</p>
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <img src="images/3.jpg" height="250" width="500" class="img-responsive">
+                        </div>
+                    </div><!--End of first row-->
+                    <!--Beginning of second about us row-->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/4.jpg" class="img-responsive" height="250" width="500">
+                        </div>
+                        
+                        <div class="col-md-6">
+                            <p>
+                                <h1>Whats the significance of what we do?</h1>
+                                Todays society is different to the one that existed not so many years ago. Our society is constantly changing. The most important characteristics of our era may be the transformation, transmission and dominion of information. We live in an information society where the leading role has been given to new technologies, especially those devoted to information. Our society could not be imagined without new technologies and their role both in this society and in human life in general.
+                            </p>
+                        </div>
+                    </div><!--End of second row-->
+                </div><!--End of about us row-->
+                
+                <div class="row">
+                    <a name="join"></a>
+                    <div class="col-md-12">
+                        <span class="about"><img src="images/2.jpg" height="300" width="800" class="img-responsive"></span>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Register">Join Now!</button>
+
+                            <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="Register">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <form>
+                                        Name:<input type="text" id="Name" required><br>
+                                        Phone:<input type="number" id="email" required>
+                                    </form>
+                                </div>
+                            </div>
+                            </div>
+                    </div>
+                </div><!--End of join us row-->
+                
+                <div class="row">
+                    <a name="contact"></a>
+                    <div class="contact-form">
+                        <form>
+                            <h1> Talk to Us!</h1>
+                            <input type="text" placeholder="NAME" required><br><br>
+                            <input type="text" placeholder="EMAIL" required><br><br>
+                            <textarea placeholder="MESSAGE"></textarea><br>
+                            <input type="submit" value="Send">
+                        </form>
+                    </div>
+                </div><!--End of Contact Us Row-->
+                
+                <br>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h1>WHERE TO FIND US</h1>
+                        <P class="address">JKUAT, Juja Main Campus<br>Every thursday from 7:00pm - 10:00pm<br>
+                        <strong>EMAIL ADDRESS:</strong> info@blaze.com<br><strong>PHONE:</strong>+254719758693</P>
+                    </div>
+                    
+                    <div class="col-md-6">
+                        <div id="map"></div>
+                    </div>
+                </div>
+                
+            </div><!--End of container-->
+            <script src="js/bootstrap.min.js"></script><!--Js included at end of page for page to load faster-->
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCfO-kSMHpWJEXatrZO1MeMAIFIXjlhRlA&callback=initMap"
+            async defer></script><!--MAP API-->
+            
+            <script>
+                var map;
+                    function initMap() {
+                        map = new google.maps.Map(document.getElementById('map'), {
+                        center: {lat: -1.1003958, lng: 37.0145334},
+                        zoom: 11
+                        });
+                        
+                        var contentString = 'Visit Us at JKUAT MAIN CAMPUS <br /> Every Thusrday From 7pm - 10pm <br /> Hall 7 Room 32' ;
+
+                        var infowindow = new google.maps.InfoWindow({
+                        content: contentString
+                        });
+                       
+                        // Create a marker and set its position.
+                        var marker = new google.maps.Marker({
+                            map: map,
+                            position: {lat: -1.1003958, lng: 37.0145334},
+                            title: 'Here We are! (JKUAT Main Campus)'
+                        });
+                        //Click evernt listener to show info window
+                        marker.addListener('click', function() {
+                        infowindow.open(map, marker);
+                        });
+                    }
+            </script>
+        </body>      
+</html>

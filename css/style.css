@@ -10,7 +10,7 @@
      background-color: #ffffff;
 }
 .topright{
-    position: absolute;
+    position: relative;
     top: 6em;
     right: 16em;
     /*font-size: 30px;*/
@@ -38,4 +38,18 @@ a{
 }
 .fixed{
     position: fixed;
+}
+.about{
+    top: 50%;
+    left: 0;
+    width: 100%;
+}
+h1{
+    color: orange;
+}
+#map{
+    height: 100px;
+    height: 500px;
+    margin: auto;
+    
 }
