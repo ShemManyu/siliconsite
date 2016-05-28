@@ -14,7 +14,7 @@
     top: 6em;
     right: 16em;
     /*font-size: 30px;*/
-    color: orange;
+    color: white;
     font-weight: bold;
 }
 .center{
@@ -51,5 +51,18 @@ h1{
     height: 100px;
     height: 500px;
     margin: auto;
-    
+}
+.navbar-inverse{
+    background-color: orange;
+    border-color: orange;
+}
+.navbar .navbar-nav > li > a{
+    color: white;
+}
+.navbar .navbar-nav > li > a:hover{
+    background-color: white;
+    color: orange;
+}
+form{
+    margin: auto;
 }
