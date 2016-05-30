@@ -6,6 +6,9 @@
 .socialicons{
     display: block;
 }
+.socialicons, img{
+    background-color:
+}
 .socialicons: hover{
      background-color: #ffffff;
 }
@@ -63,6 +66,11 @@ h1{
     background-color: white;
     color: orange;
 }
-form{
-    margin: auto;
+.background{
+    background-color: #2f2f2f;
+    color: white;
+    height: 250px;
+}
+hr{
+    color: white;
 }

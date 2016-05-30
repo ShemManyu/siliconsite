@@ -1,0 +1,47 @@
+
+@keyframes shake{
+    0%, 100%{
+        -webkit-transform-origin-x: 0;
+        -ms-transform-origin-x: 0;
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90%{
+        -webkit-transform-origin-x: 10px;
+        -ms-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+    20%, 40%, 60%, 80%{
+        -webkit-transform-origin-x: -10px;
+        -ms-transform-origin-x: -10px;
+        transform: translateX(-10px);
+    }
+}
+
+@keyframes shakeup{
+    0%, 100%{
+        -webkit-transform-origin-y: 0;
+        -ms-transform-origin-y: 0;
+    }
+    10%, 30%, 50%, 70%, 90%{
+        -webkit-transform-origin-y: 10px;
+        -ms-transform-origin-y: 10px;
+        transform: translateY(10px);
+    }
+    20%, 40%, 60%, 80%{
+        -webkit-transform-origin-y: -10px;
+        -ms-transform-origin-y: -10px;
+        transform: translateY(-10px);
+    } 
+}
+
+button:hover{
+    -webkit-animation-name: shakeup;
+    animation-name: shakeup;
+    -webkit-animation-duration: 1s;
+}
+
+.shakeup:hover{
+    -webkit-animation-name: shake;
+    animation-name: shakeup;
+    -webkit-animation-duration: 1s;
+}
