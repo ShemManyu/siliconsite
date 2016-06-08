@@ -33,13 +33,6 @@
         transform: translateY(-10px);
     } 
 }
-
-button:hover{
-    -webkit-animation-name: shakeup;
-    animation-name: shakeup;
-    -webkit-animation-duration: 1s;
-}
-
 .shakeup:hover{
     -webkit-animation-name: shake;
     animation-name: shakeup;

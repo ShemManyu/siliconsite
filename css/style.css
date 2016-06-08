@@ -1,3 +1,9 @@
+.cover-text h1{
+    font-size: 5em;
+}
+.cover-text p{
+    font-size: 2em;
+}
 .about{
     top: 50%;
     left: 0;
@@ -37,8 +43,8 @@ hr{
     background:url(../images/1.jpg)no-repeat center 0px;
     min-height: 700px;
     background-size:cover;
-    webkit-background-size:cover;
-    moz-background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
     position:relative;
 }
 .header{
@@ -48,4 +54,57 @@ hr{
     padding: 12em 0 16.7em;
     text-align:center;
     color: orange;
+}
+.quote{
+    background:url(../images/bg.jpg)no-repeat center 0px;
+    background-size: cover;
+    -webkit-background-size:cover;
+    min-height: 300px;
+}
+blockquote{
+    color: white;
+    font-family:cursive;
+}
+.contact-form{
+    background:url(../images/contact.jpg)no-repeat 0px 0px fixed;
+    -webkit-background-size:cover;
+    background-size:cover;
+    text-align:center;
+    padding:6em 15em;
+    margin-top:6em;
+}
+.contact-form input[type="text"]{
+    width: 100%;
+    color:white;
+    background:none;
+    border: solid 1px white;
+    
+}
+.contact-form textarea{
+    width: 100%;
+    background:none;
+    border: solid 1px white;
+    min-height:12em;
+}
+.contact-form textarea:active{
+    text-decoration:none;
+}
+.contact-form input[type="submit"]{
+    color:white;
+    background:chocolate;
+    border: solid 1px chocolate;
+    width: 40%;
+    height: 3em;
+    -webkit-appearance: none;
+}
+.contact-form input[type="submit"]:hover{
+    background: transparent;
+    color: chocolate;
+    -webkit-appearance: none;
+}
+.contact-form h1{
+    color: white;
+}
+::-webkit-input-placeholder{
+	color:#fff !important;
 }
