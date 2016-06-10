@@ -56,14 +56,9 @@ hr{
     color: orange;
 }
 .quote{
-    background:url(../images/bg.jpg)no-repeat center 0px;
-    background-size: cover;
-    -webkit-background-size:cover;
+    background-color:orange;
     min-height: 300px;
-}
-blockquote{
-    color: white;
-    font-family:cursive;
+    padding: 5em 5em;
 }
 .contact-form{
     background:url(../images/contact.jpg)no-repeat 0px 0px fixed;
@@ -107,4 +102,21 @@ blockquote{
 }
 ::-webkit-input-placeholder{
 	color:#fff !important;
+}
+.carousel-caption{
+    vertical-align:middle;
+}
+#clock{
+    font-family: sans-serif;
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 30;
+}
+#clock > h1{
+    color: #369;
+    font-weight: 100;
+    font-size: 40;
+    margin: 40px 0px 20px;
 }
